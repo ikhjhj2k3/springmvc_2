@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MappingController {
     
-//MappingController_test10
+//MappingController_test11
     
     @GetMapping(value = "/mapping/{userid}/{itemnumber}", headers = "mode=debug", consumes = MediaType.APPLICATION_JSON_VALUE)
     public String mappingPath(@PathVariable("userid") String userid_param,
